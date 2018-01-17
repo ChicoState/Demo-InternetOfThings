@@ -4,8 +4,8 @@
 1. Set up google home <br />
 2. [Set up Flask on Raspberry Pi](https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/)<br />
 3. Set up IFTTT<br />
-    ..1. Go to My Applets
-    ..2. click " + " (top right button)
+    ⋅⋅1. Go to My Applets
+    ⋅⋅2. click " + " (top right button)
     ..3. click " this "
     ..4. search " Google Assistant " / "Amazon Alexa"
     ..5. Fill out form
