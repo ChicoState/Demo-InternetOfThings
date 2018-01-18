@@ -1,26 +1,36 @@
-## IoT Example
+# Getting Started with IoT Demo: LED Automation
 
-### How to get started:
-1. Set up google home <br />
-2. [Set up Flask on Raspberry Pi](https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/)<br />
-3. Set up IFTTT<br />
-    1. Go to My Applets
-    2. click " + " (top right button)
-    3. click " this "
-    4. search " Google Assistant " / "Amazon Alexa"
-    5. Fill out form
-    6. click " That "
-    7. search " Webhooks "
-    8. click " Make a web request "
-    9. replace URL with public IP and web server port used by Flask
-	
-    
-    
+## How LED Automation Works
+LED automation is an example of how IoT can be implemented with smart-home controllers. The LED Automation allows user to turn on an LED with a verbal command.
 
-###  Helpful Videos to get Started
-* [Google Home and Raspberry Pi controlling LED lights](https://www.youtube.com/watch?v=zp-HlLbT-xA)
-* [IFTTT Explained and Shown (if this then that)](https://www.youtube.com/watch?v=YV3DEmmDHdc)
-* [How to connect Raspberry Pi and IFTTT for easy home automation!](https://www.youtube.com/watch?v=IML0Cg2-iko)
-* [Google Home + Raspberry Pi Power Strip](http://www.instructables.com/id/Google-Home-Raspberry-Pi-Power-Strip/)
-* [IOT DIY | Control Solid State & Mechanical Relay with Google Mini | Raspberry Pi3 | Tutorial # 17](https://www.youtube.com/watch?v=1Eo9NSiS3Y8)
+To activate the verbal commands one must say "OK google" or "Alexa" followed by a verbal command that the user programs themselves. Once the commands are accepted, the request will be sent to IFTTT, which will send a network request to the Raspberry Pi server, then this will be read by the Flask classes, and finally turn on the LED.
+
+## Software needed
+To get started, install the proper OS on the Raspberry Pi. A good way to start is with the NOOBS.
+
+If you do not have NOOBS set up on your Raspberry Pi, click [here](https://www.raspberrypi.org/downloads/noobs/).
+
+Once you have NOOBS set up on Raspberry Pi then you will need the following tools:
+
+* Set up [Google Home](https://support.google.com/googlehome/answer/7126472?hl=en)
+* Set Up [Amazon Alexa](https://www.amazon.com/gp/help/customer/display.html?nodeId=201601770)
+* [Set up Flask on Raspberry Pi](https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/)
+* Make an account with [IFTTT](https://ifttt.com/discover)
+
+## Steps to Getting Started with LED Automation:
+
+Once you have all the software needed you will then need to clone the repository to your desktop (or where ever you please) by opening the terminal, changing directory where you would like to clone then inputing:
+   "git clone https://github.com/ChicoState/Demo-InternetOfThings"
+   
+   To run the python code you can type in the terminal:
+   "python3 rd.py"
+   
+   Remember to wire up the Raspberry Pi and LED properly, if you need help doing so please refer to "Additional Links and Documentation".
+
+##  Helpful Videos to get Started
+Diagram to wire up Raspberry Pi with LED (Instead of pin 25 use pin 17), [click here](https://cdn.sparkfun.com/assets/e/1/4/c/a/528bd59d757b7f65548b4567.png)
+To get a visual idea of the LED Automation, [click here](https://www.youtube.com/watch?v=zp-HlLbT-xA)
+To get a quick explanation of what IFTTT is, [click here](https://www.youtube.com/watch?v=YV3DEmmDHdc)
+To see a similar example of the example here but with a Relay insdead, [click here](http://www.instructables.com/id/Google-Home-Raspberry-Pi-Power-Strip/)
+If you need a better explaination of LED Automation, this link will send you the most thorough example I found on [Youtube](https://www.youtube.com/watch?v=1Eo9NSiS3Y8)
 
