@@ -27,7 +27,7 @@ Once you have all the software needed you will then need to clone the repository
    
    Remember to wire up the Raspberry Pi and LED properly, if you need help doing so please refer to "Additional Links and Documentation".
 
-##  Helpful Videos to get Started
+##  Additional Links and Documentation
 Diagram to wire up Raspberry Pi with LED (Instead of pin 25 use pin 17), [click here](https://cdn.sparkfun.com/assets/e/1/4/c/a/528bd59d757b7f65548b4567.png) <br />
 
 To get a visual idea of the LED Automation, [click here](https://www.youtube.com/watch?v=zp-HlLbT-xA)<br />
