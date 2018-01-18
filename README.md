@@ -19,10 +19,10 @@ Once you have NOOBS set up on Raspberry Pi then you will need the following tool
 
 ## Steps to Getting Started with LED Automation:
 
-Once you have all the software needed you will then need to clone the repository to your desktop (or where ever you please) by opening the terminal, changing directory where you would like to clone then inputing:
+Once you have all the software needed you will then need to clone the repository to your desktop (or where ever you please) by opening the terminal, changing directory where you would like to clone then inputing:<br />
    "git clone https://github.com/ChicoState/Demo-InternetOfThings"
    
-   To run the python code you can type in the terminal:
+   To run the python code you can type in the terminal:<br />
    "python3 rd.py"
    
    Remember to wire up the Raspberry Pi and LED properly, if you need help doing so please refer to "Additional Links and Documentation".
