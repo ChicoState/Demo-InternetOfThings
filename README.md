@@ -28,9 +28,9 @@ Once you have all the software needed you will then need to clone the repository
    Remember to wire up the Raspberry Pi and LED properly, if you need help doing so please refer to "Additional Links and Documentation".
 
 ##  Helpful Videos to get Started
-Diagram to wire up Raspberry Pi with LED (Instead of pin 25 use pin 17), [click here](https://cdn.sparkfun.com/assets/e/1/4/c/a/528bd59d757b7f65548b4567.png)
-To get a visual idea of the LED Automation, [click here](https://www.youtube.com/watch?v=zp-HlLbT-xA)
-To get a quick explanation of what IFTTT is, [click here](https://www.youtube.com/watch?v=YV3DEmmDHdc)
-To see a similar example of the example here but with a Relay insdead, [click here](http://www.instructables.com/id/Google-Home-Raspberry-Pi-Power-Strip/)
-If you need a better explaination of LED Automation, this link will send you the most thorough example I found on [Youtube](https://www.youtube.com/watch?v=1Eo9NSiS3Y8)
+Diagram to wire up Raspberry Pi with LED (Instead of pin 25 use pin 17), [click here](https://cdn.sparkfun.com/assets/e/1/4/c/a/528bd59d757b7f65548b4567.png) <br />
+To get a visual idea of the LED Automation, [click here](https://www.youtube.com/watch?v=zp-HlLbT-xA)<br />
+To get a quick explanation of what IFTTT is, [click here](https://www.youtube.com/watch?v=YV3DEmmDHdc)<br />
+To see a similar example of the example here but with a Relay insdead, [click here](http://www.instructables.com/id/Google-Home-Raspberry-Pi-Power-Strip/)<br />
+If you need a better explaination of LED Automation, this link will send you the most thorough example I found on [Youtube](https://www.youtube.com/watch?v=1Eo9NSiS3Y8)<br />
 
